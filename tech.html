@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologyt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Hello World</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">홈</a></li>
+        <li><a href="about.html">주제소개</a></li>
+        <li><a href="tech.html">기술소개</a></li>
+        <li><a href="team.html">팀 소개</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologyt</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <div class="tech-navbar">
+    <button class="tech-btn" data-tech="html">HTML</button>
+    <button class="tech-btn" data-tech="css">CSS</button>
+    <button class="tech-btn" data-tech="js">JavaScript</button>
+    <button class="tech-btn" data-tech="vscode">VSCode</button>
+    <button class="tech-btn" data-tech="nextjs">Next.js</button>
+  </div>
+
+  <!-- HTML 콘텐츠 -->
+  <div id="html-content" class="tech-content" style="display:none;">
+    <div class="tech-info-horizontal">
+      <img src="picture/HTML5.png" class="tech-logo-small">
+      <div class="tech-info-text">
+        <h2>HTML(Hypertext Markup Language)</h2>
+        <p>웹페이지를 만드는데 사용되는 언어</p>
+        <p>Hypertext는 웹 페이지를 다른 페이지로 연결하는 링크를 말한다.</p>
+        <a href="https://developer.mozilla.org/ko/docs/Web/HTML" target="_blank">공식 문서</a>
+      </div>
+    </div>
+    <div class="tech-row-layout">
+      <div class="command-table-wrap">
+        <table class="command-table">
+          <thead>
+            <tr>
+              <th>명령어/태그</th>
+              <th>설명</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;h1&gt;</td>
+              <td>가장 중요한 제목을 나타냅니다.</td>
+            </tr>
+            <tr>
+              <td>&lt;p&gt;</td>
+              <td>단락을 나타냅니다.</td>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;</td>
+              <td>하이퍼링크를 만듭니다.</td>
+            </tr>
+            <tr>
+              <td>&lt;img&gt;</td>
+              <td>이미지를 삽입합니다.</td>
+            </tr>
+            <tr>
+              <td>&lt;ul&gt;, &lt;li&gt;</td>
+              <td>리스트와 리스트 항목을 만듭니다.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="example-col">
+        <div class="example-code-box">
+          <h4>예시 코드</h4>
+          <pre>&lt;h1&gt;Hello&lt;/h1&gt;</pre>
+        </div>
+        <div class="output-box">
+          <h4>출력값</h4>
+          <div class="output-window">
+            <h1>Hello</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CSS 콘텐츠 -->
+  <div id="css-content" class="tech-content" style="display:none;">
+    <div class="tech-info-horizontal">
+      <img src="picture/CSS.png" class="tech-logo-small">
+      <div class="tech-info-text">
+        <h2>CSS(Cascading Style Sheets)</h2>
+        <p>CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링되어야 하는지 지정합니다.</p>
+        <a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_blank">공식 문서</a>
+      </div>
+    </div>
+    <div class="tech-row-layout">
+      <div class="command-table-wrap">
+        <table class="command-table">
+          <thead>
+            <tr>
+              <th>명령어/속성</th>
+              <th>설명</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>color</td>
+              <td>텍스트의 색상을 지정합니다.</td>
+            </tr>
+            <tr>
+              <td>background-color</td>
+              <td>요소의 배경색을 지정합니다.</td>
+            </tr>
+            <tr>
+              <td>font-size</td>
+              <td>텍스트의 크기를 지정합니다.</td>
+            </tr>
+            <tr>
+              <td>margin</td>
+              <td>요소의 외부 여백을 지정합니다.</td>
+            </tr>
+            <tr>
+              <td>display</td>
+              <td>요소의 박스 유형(블록, 인라인 등)을 지정합니다.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="example-col">
+        <div class="example-code-box">
+          <h4>예시 코드</h4>
+          <pre>
+h1 {
+  color: blue;
+  background-color: #f0f0f0;
+  font-size: 32px;
+  margin: 20px 0;
+  display: block;
+}
+          </pre>
+        </div>
+        <div class="output-box">
+          <h4>출력값</h4>
+          <div class="output-window">
+            <h1 style="color: blue; background-color: #f0f0f0; font-size: 32px; margin: 20px 0; display: block;">Hello
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript 콘텐츠 -->
+  <div id="js-content" class="tech-content" style="display:none;">
+    <div class="tech-info-horizontal">
+      <img src="picture/JavaScript.png.jpg" alt="JavaScript 로고" class="tech-logo-small">
+      <div class="tech-info-text">
+        <h2>JavaScript</h2>
+        <p>웹 페이지에 동적인 기능을 추가하는 프로그래밍 언어입니다.</p>
+        <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript" target="_blank">공식 문서</a>
+      </div>
+    </div>
+    <div class="tech-row-layout">
+      <div class="command-table-wrap">
+        <table class="command-table">
+          <thead>
+            <tr>
+              <th>명령어/문법</th>
+              <th>설명</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>let, const, var</td>
+              <td>변수를 선언할 때 사용합니다.</td>
+            </tr>
+            <tr>
+              <td>function</td>
+              <td>함수를 정의할 때 사용합니다.</td>
+            </tr>
+            <tr>
+              <td>if, else</td>
+              <td>조건문을 작성할 때 사용합니다.</td>
+            </tr>
+            <tr>
+              <td>for, while</td>
+              <td>반복문을 작성할 때 사용합니다.</td>
+            </tr>
+            <tr>
+              <td>console.log()</td>
+              <td>콘솔에 값을 출력할 때 사용합니다.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="example-col">
+        <div class="example-code-box">
+          <h4>예시 코드</h4>
+          <pre>
+let message = "Hello, JavaScript!";
+if (message) {
+  console.log(message);
+}
+          </pre>
+        </div>
+        <div class="output-box">
+          <h4>출력값</h4>
+          <div class="output-window">
+            Hello, JavaScript!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VSCode 콘텐츠 -->
+  <div id="vscode-content" class="tech-content" style="display:none;">
+    <div class="tech-info-horizontal">
+      <img src="picture/vscode.png" alt="VSCode 로고" class="tech-logo-small">
+      <div class="tech-info-text">
+        <h2>VSCode</h2>
+        <p>
+          VSCode(Visual Studio Code)는 마이크로소프트에서 개발한 무료 오픈 소스 코드 편집기입니다.
+          다양한 프로그래밍 언어를 지원하며, 가볍고 빠른 성능과 풍부한 확장 기능, 직관적인 UI로
+          많은 개발자들이 선호하는 개발 도구입니다.
+          확장 프로그램을 통해 디버깅, 버전 관리, 테마 등 다양한 기능을 추가할 수 있습니다.
+        </p>
+        <a href="https://code.visualstudio.com/" target="_blank">공식 사이트</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Next.js 콘텐츠 -->
+  <div id="nextjs-content" class="tech-content" style="display:none;">
+    <div class="tech-info-horizontal">
+      <img src="picture/nextjs.png" alt="Next.js 로고" class="tech-logo-small">
+      <div class="tech-info-text">
+        <h2>Next.js</h2>
+        <p>
+          Next.js는 React 기반의 오픈 소스 프레임워크로,
+          서버사이드 렌더링(SSR), 정적 사이트 생성(SSG), 라우팅 등
+          현대적인 웹 애플리케이션 개발에 필요한 다양한 기능을 제공합니다.
+          빠른 페이지 로딩, SEO 최적화, 코드 분할 등 성능과 개발 편의성을 동시에 갖추고 있어
+          기업과 개인 개발자 모두에게 널리 사용되고 있습니다.
+        </p>
+        <a href="https://nextjs.org/" target="_blank">공식 사이트</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 중부대학교 웹프로그래밍 팀프로젝트</p>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
