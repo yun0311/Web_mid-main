@@ -355,21 +355,31 @@ body {
   margin-bottom: 24px;
 }
 
+/* tech-content 중앙 정렬 */
 .tech-content {
-  width: 100%;
-  max-width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;      /* 수직 중앙 */
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 36px 24px 28px 24px;
+  margin-bottom: 28px;
+  animation: fadeIn 0.6s;
 }
 
 .tech-info-horizontal {
   display: flex;
   align-items: center;
-  justify-content: center;   /* 수평 가운데 정렬 */
+  justify-content: center;
   gap: 24px;
-  margin: 0 auto 32px auto;  /* 위아래 여백 + 좌우 자동 가운데 */
-  max-width: 600px;          /* 필요시 최대폭 제한 */
+  margin: 0 auto 32px auto;
+  max-width: 600px;
   text-align: left;
 }
 
